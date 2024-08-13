@@ -1,16 +1,61 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
   text-align: center;
-  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  background-image: url('../img/milad-fakurian-xUtskxO_-CQ-unsplash.jpg');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: inherit;
+
 }
-.boton-jugada {
-  background-color: #3498db;
-  color: #fff;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
+
+h1 {
+  margin-top: 40px;
+  color: aliceblue;
+  background-color: rgba(0, 139, 139, 0.342);
+  border-radius: 20px;
+  padding: 8px 250px;
+  font-weight: 100;
+  font-size: 35px;
+  display: inline-block;
 }
-#resultados {
-  font-size: 20px;
+
+.opciones {
   margin: 20px 0;
+}
+
+.boton {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin: 20px 10px;
+  padding: 10px 20px;
+  font-size: 22px;
+  cursor: pointer;
+  background-color: aliceblue;
+  border-radius: 20px;
+  border: 2px solid darkcyan;
+  transition: all 0.2s;
+}
+
+.boton:hover{
+  transition: all 0.2s;
+  background-color: darkcyan;
+}
+
+#resultados {
+  margin: 40px 0;
+  font-size: 25px;
+  color: aliceblue;
+}
+
+.puntuacion {
+  font-size: 22px;
+  margin-top: 20px;
+  color: aliceblue;
+  
 }
